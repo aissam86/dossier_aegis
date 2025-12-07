@@ -1,6 +1,9 @@
 @import'styles/colors.css';
+
 /* -----  RESET CSS  -----  */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,51 +11,47 @@
     box-sizing: inherit;
 }
 
-body{
+body {
     background-color: rgb(3, 129, 129);
     /* background-image: url(ressource/Manga_Building_Facade_Dynamic_Art.png); */
 }
-.nav_contener{
-  display: flex;
-  justify-content: space-between;
+
+.nav_contener {
+    display: flex;
+    justify-content: space-between;
 }
-.btn_contener{
+
+.btn_contener {
     display: flex;
     flex-direction: row;
 }
-.btn1{
-  display: flex;
-flex-direction: column;
-}
-.btn2{
+
+.btn {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-a.menu{
-  display: flex;
-  flex-direction: row-reverse;
-   padding: 8px 15px;
-   margin-right: 10px;
-   margin-left: 5px;
-   margin-top: 30px;
-   background-color: #AF5A5A;
-   border-radius: 19cm;
-   border:1px solid black;ù
-   font-size: 13px;
-   color: white;
-   -webkit-text-stroke-width: 0.1px;
-   -webkit-text-stroke-color: black;
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 8px 15px;
+    margin: 20px 10px;
+    background-color: #AF5A5A;
+    border-radius: 19cm;
+    border: 1px solid black;
+    font-size: 13px;
+    color: white;
 }
 
-a.écosystème{
+.ecosysteme {
     padding: 8px 15px;
     margin-right: 40px;
     margin-left: 10px;
     margin-top: 30px;
+    margin: 30px 40px 10px 30px;
     background-color: #AF5A5A;
     border-radius: 19cm;
-    border:1px solid black;
+    border: 1px solid black;
     font-size: 13px;
     color: white;
     -webkit-text-stroke-width: 0.1px;
@@ -60,125 +59,123 @@ a.écosystème{
 
 }
 
-a.login{
+.login {
     padding: 8px 15px;
-    margin-right: 40px;
-    margin-left: 10px;
-    margin-top: 30px;
+    margin: 20px 40px 10px 30px;
     background-color: #AF5A5A;
     border-radius: 19cm;
-    border:1px solid black;
+    border: 1px solid black;
     font-size: 13px;
     color: white;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: black;
-     
+
 }
 
-a.finance{
+.finance {
     padding: 8px 15px;
-    margin-right: 40px;
-    margin-left: 10px;
-    margin-top: 30px;
+    margin: 30px 40px 10px 30px;
     background-color: #AF5A5A;
     border-radius: 19cm;
-    border:1px solid black;
+    border: 1px solid black;
     font-size: 13px;
     color: white;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: black;
 }
 
-a.solution{
+.solution {
     padding: 8px 15px;
     margin-right: 40px;
     margin-left: 10px;
     margin-top: 30px;
+    margin: 20px 40px 10px 30px;
     background-color: #AF5A5A;
     border-radius: 19cm;
-    border:1px solid black;
+    border: 1px solid black;
     font-size: 13px;
     color: white;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: black;
 }
-/* lien typo bangers pour H1( https://www.cssfontstack.com/Bangers) */ 
 
-h1 { font-family: Bangers; 
-     font-size: 40px;
-     font-style: bolt; 
-     font-variant: bolt; 
-     font-weight: 400; 
-     line-height: 52.8px;
-     color: #A3EAF2;
-     -webkit-text-stroke-width: 1px;
-     -webkit-text-stroke-color: black;
-     margin-left: 60px;
-     }
+/* lien typo bangers pour H1( https://www.cssfontstack.com/Bangers) */
+
+h1 {
+    font-family: Bangers;
+    font-size: 40px;
+    font-style: bolt;
+    font-variant: bolt;
+    font-weight: 400;
+    line-height: 52.8px;
+    color: #A3EAF2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin: 30px 30px
+}
 
 /* lien typo bangers pour H2 (https://www.cssfontstack.com/open-sans) */
-     h2 {
-        font-family: "Open Sans"; 
-        font-size: 20px; 
-        font-style: normal; 
-        font-variant: normal; 
-        font-weight: 700; 
-        line-height: 26.4px; 
-        color: white;
-        -webkit-text-stroke-width: 0.1px;
-        -webkit-text-stroke-color: black;
-        margin-left: 60px;
-    } 
-    .contener_cta{
-        display: flex;
-        flex-direction: row;
-    }
-    .promo {
-        grid-column: 1;
-        grid-row: 2 / 5;
-        padding: 10px 10px;
-        margin-left: 30px;
-        margin-right: 30px;
-        font-family: "Judson", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 20px;
-        border-color: black;
-        color:white;
-        fill-opacity: 1;
-        -webkit-text-stroke-width: 0.1px;
-        -webkit-text-stroke-color: black;
-        /* background-color: rgb(235, 13, 187); */
-        background-color: rgb(207, 10, 10);
-        opacity: 1;
-        border-radius: 5%;
-        border-color: black;
-    }
-    .cta{
-        columns: 1;
-        grid-row: 2 / 5;
-        padding: 10px 10px;
-        margin-left: 10px;
-        margin-right: 50px;
-        font-family: "Judson", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 20px;
-        color:white;
-        -webkit-text-stroke-width: 0.1px;
-        -webkit-text-stroke-color: black;
-        background-color: #6f0fec;
-        border-radius: 5%;
-        border-color: black;
-        border-width: 0,5em;
-     }
-     .social_média_links{
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        margin: 30px 0;
-     }
-footer{ background-color: rgb(118, 226, 163);
+h2 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: white;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    margin: 10px 20px;
 }
 
+.contener_cta {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
 
+.promo {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    padding: 10px 30px;
+    margin: 30px 50px;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border-color: black;
+    color: white;
+    fill-opacity: 1;
+    background-color: rgb(207, 10, 10);
+    opacity: 1;
+    border-radius: 5%;
+    border-color: black;
+    border-width: 0, 5em;
+}
+
+.cta {
+    columns: 1;
+    grid-row: 2 / 5;
+    padding: 10px 10px;
+    margin: 30px 40px;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: #6f0fec;
+    border-radius: 5%;
+    border-color: black;
+    border-width: 0, 5em;
+}
+
+.social_média_links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: rgb(118, 226, 163);
+}
