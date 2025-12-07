@@ -1,0 +1,12 @@
+:root {
+    --font-title: 'Bangers';
+
+}
+
+@font-face {
+    font-family: 'Bangers';
+    src: url('../asset/bangers_5.2.8/webfonts/bangers-latin-400-normal.woff2') format('woff2'),
+        url('../asset/font/bangers_5.2.8/webfonts/bangers-latin-400-normal.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
