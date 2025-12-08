@@ -155,7 +155,7 @@ h2 {
     border-width: 0, 5em;
 }
 
-.social_media_links {
+#social_media_links {
     display: flex;
     justify-content: center;
     gap: 30px;
