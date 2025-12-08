@@ -1,12 +1,28 @@
 :root {
     --font-title: 'Bangers';
-
+    --font-sous-titre: 'Open Sans';
+    --font-cta: 'Judson';
+    --font-btn: 'Open Sans';
 }
 
 @font-face {
     font-family: 'Bangers';
-    src: url('../asset/bangers_5.2.8/webfonts/bangers-latin-400-normal.woff2') format('woff2'),
+    src: url('../asset/font/bangers_5.2.8/webfonts/bangers-latin-400-normal.woff2') format('woff2'),
         url('../asset/font/bangers_5.2.8/webfonts/bangers-latin-400-normal.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Judson';
+    src: url('../asset/font/judson/judson-latin-400-normal.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../asset/font/open-sans/open-sans-latin-400-normal.woff2") format('woff2');
     font-weight: 400;
     font-style: normal;
 }
