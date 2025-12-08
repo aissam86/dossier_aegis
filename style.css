@@ -1,4 +1,5 @@
 @import'./styles/_all_variables.css';
+@import'./components/_all_components.css';
 
 /* -----  RESET CSS  -----  */
 *,
@@ -10,14 +11,14 @@
     text-decoration: none;
     box-sizing: inherit;
 }
+html, body {
+    height: 100vh;
+    overflow: hidden;}
 
 body {
     background-color: rgb(3, 129, 129);
     background-image: url('asset/background_index_page.png');
     background-position: center;
-
-    height: 100vh;
-
 }
 
 .nav_contener {
@@ -49,9 +50,6 @@ body {
 
 .ecosysteme {
     padding: 8px 15px;
-    margin-right: 40px;
-    margin-left: 10px;
-    margin-top: 30px;
     margin: 30px 40px 10px 30px;
     background-color: #AF5A5A;
     border-radius: 19cm;
@@ -91,29 +89,26 @@ body {
     color: white;
 }
 
-/* lien typo bangers pour H1( https://www.cssfontstack.com/Bangers) */
 
 h1 {
-    font-family: var(--font-title);
+    font-family: 'Bangers', serif;
     font-size: 40px;
-    font-style: bolt;
-    font-variant: bolt;
+    font-style: normal;
     font-weight: 400;
-    line-height: 52.8px;
+    line-height: 48px;
     color: #A3EAF2;
-    margin: 30px 30px
+    margin: 10px 30px
 }
 
-/* lien typo bangers pour H2 (https://www.cssfontstack.com/open-sans) */
 h2 {
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 26.4px;
+    line-height: 20px;
     color: white;
-    margin: 10px 20px;
+    margin: 5px 20px;
 }
 
 .contener_cta {
@@ -125,8 +120,8 @@ h2 {
 .promo {
     grid-column: 1;
     grid-row: 2 / 5;
-    padding: 10px 30px;
-    margin: 30px 20px;
+    padding: 10px 10px;
+    margin: 15px 20px;
     font-family: "Judson", serif;
     font-weight: 400;
     font-style: normal;
@@ -134,36 +129,44 @@ h2 {
     border-color: black;
     color: white;
     fill-opacity: 1;
-    background-color: rgb(207, 10, 10);
-    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.48);
     border-radius: 5%;
-    border-color: black;
-    border-width: 0, 5em;
+    border-width: 0.5em;
 }
 
 .cta {
     columns: 1;
     grid-row: 2 / 5;
     padding: 10px 10px;
-    margin: 30px 40px;
+    margin: 15px 20px;
     font-family: "Judson", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     color: white;
-    background-color: #6f0fec;
+    background-color: deepskyblue;
     border-radius: 5%;
     border-color: black;
-    border-width: 0, 5em;
+    border-width: 0.5em;
 }
 
 #social_media_links {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 30px;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 footer {
     background-color: rgb(118, 226, 163);
+    display: flex;
+    justify-content: space-evenly;
+}
+/*utils style__________________________________________________*/
+.text-outline {
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black;
 }
