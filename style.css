@@ -17,11 +17,11 @@ html, body {
 
 body {
     background-color: rgb(3, 129, 129);
-    background-image: url('asset/background_index_page.png');
+    background-image: url('asset/background_index_page.avif');
     background-position: center;
 }
 
-.nav_contener {
+nav {
     display: flex;
     justify-content: space-between;
 }
